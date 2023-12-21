@@ -3,6 +3,7 @@
   height: 100%;
   position: absolute;
   background-color: #fff;
+  cursor: default;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -121,6 +122,7 @@
   padding: 20px;
   border-radius: 8px;
   width: 100%;
+  cursor: default;
 }
 .login-text {
   color: #cfcece;

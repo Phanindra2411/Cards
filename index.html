@@ -10,7 +10,11 @@
 <script>
     function opendialog() {
         var dialog = document.getElementById('myDialog');
-        dialog.style.display = (dialog.style.display === 'none' || dialog.style.display === '') ? 'block' : 'none';
+        dialog.style.display = 'block';
+    }
+    function closedialog() {
+        var dialog = document.getElementById('myDialog');
+        dialog.style.display = 'none';
     }
 </script>
 
@@ -60,7 +64,7 @@
                         <input class="inputbox" type="text" placeholder="Username" required />
                         <input class="inputbox" type="password" placeholder="password" required />
                     </div>
-                    <button class="btn btn-white" href="./index.html">Login to Codecaro</button>
+                    <button class="btn btn-white cursor-p" onclick="closedialog()">Login to Codecaro</button>
                     <p class="login-text">Not a member? <span class="signup cursor-p">Signup</span></p>
                     <p class="signup cursor-p">Forgot your password?</p>
                     <p class="login-text">By continuing, you agree to Codecaro <span
