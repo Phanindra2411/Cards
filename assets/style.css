@@ -103,6 +103,7 @@
 .btn-white {
   background-color: #eeeeee;
   color: #353535;
+  cursor: pointer;
 }
 .dialog {
   display: none;
@@ -131,4 +132,7 @@
 .logo-img {
   height: 90px;
   width: 90px;
+}
+.cursor-p {
+  cursor: pointer;
 }
