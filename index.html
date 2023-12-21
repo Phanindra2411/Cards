@@ -7,6 +7,12 @@
     <link href="./assets/style.css" rel="stylesheet" />
     <title>CSS Assignment One</title>
 </head>
+<script>
+    function opendialog() {
+        var dialog = document.getElementById('myDialog');
+        dialog.style.display = (dialog.style.display === 'none' || dialog.style.display === '') ? 'block' : 'none';
+    }
+</script>
 
 <body>
     <section class="Main">
@@ -41,16 +47,19 @@
                         for
                         Android and iOS, including magic Erasaer. Subject to eligibility.</p>
                     <button class="text-blue text-btn btn br-6 ">view details</button>
+                    <button class="login-btn text-btn btn br-6" onclick="opendialog()">Login</button>
                 </div>
             </div>
         </div>
-        <div class="dialog">
+        <div class="dialog" id="myDialog">
             <div class="login">
                 <div class="card three page-column">
-                    <p>Welcome to Codecaro</p>
-                    <input class="inputbox" type="text" placeholder="Username" required />
-                    <input class="inputbox" type="password" placeholder="password" required />
-                    <button class="btn">Login to Codecaro</button>
+                    <p style="font-weight: 600;">Welcome to Codecaro</p>
+                    <div class="page-column g-30 marb">
+                        <input class="inputbox" type="text" placeholder="Username" required />
+                        <input class="inputbox" type="password" placeholder="password" required />
+                    </div>
+                    <button class="btn btn-black">Login to Codecaro</button>
                 </div>
             </div>
         </div>
