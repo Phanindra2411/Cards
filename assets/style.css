@@ -121,3 +121,10 @@
   border-radius: 8px;
   width: 100%;
 }
+.login-text {
+  color: #cfcece;
+}
+.signup {
+  text-decoration: underline #adadad;
+  color: #fff;
+}
