@@ -91,9 +91,11 @@
   width: 100%;
   padding: 10px 20px;
   height: 40px;
-  color: #444746;
+  color: #fff;
   border: 1px solid #adadad !important;
   border-radius: 6px !important;
+  outline: none;
+  background: transparent;
 }
 .g-30 {
   gap: 30px !important;
