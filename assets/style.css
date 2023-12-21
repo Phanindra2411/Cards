@@ -100,9 +100,9 @@
 .g-30 {
   gap: 30px !important;
 }
-.btn-black {
-  background-color: #000;
-  color: #fff;
+.btn-white {
+  background-color: #eeeeee;
+  color: #353535;
 }
 .dialog {
   display: none;
