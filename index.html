@@ -16,6 +16,9 @@
         var dialog = document.getElementById('myDialog');
         dialog.style.display = 'none';
     }
+    function redirectToDashboard() {
+        window.location.href = "./dashboard.html";
+    }
 </script>
 
 <body>
@@ -59,18 +62,21 @@
             <div class="login">
                 <div class="card three page-column">
                     <img class="logo-img" src="./assets/img/logo.png" alt="logo" />
-                    <p class="login-text" style="font-weight: 600;">Welcome to Codecaro</p>
-                    <div class="page-column g-30 marb">
+                    <p class="login-text" style="font-weight: 600; margin: 30px;">Welcome to Codecaro</p>
+                    <div class="page-column g-10 marb">
                         <input class="inputbox" type="text" placeholder="Username" required />
                         <input class="inputbox" type="password" placeholder="password" required />
                     </div>
-                    <button class="btn btn-white cursor-p" onclick="closedialog()">Login to Codecaro</button>
-                    <p class="login-text">Not a member? <span class="signup cursor-p">Signup</span></p>
-                    <p class="signup cursor-p">Forgot your password?</p>
-                    <p class="login-text">By continuing, you agree to Codecaro <span
-                            style="text-decoration: underline; cursor: pointer;">terms</span> and
-                        acknowledge you've read pur <span style="text-decoration: underline; cursor: pointer;">privacy
-                            policy</span></p>
+                    <button class="btn btn-white cursor-p" onclick="redirectToDashboard()">Login to Codecaro</button>
+                    <div class="page-column g-10 mart-20">
+                        <p class="login-text">Not a member? <span class="signup cursor-p">Signup</span></p>
+                        <p class="signup cursor-p">Forgot your password?</p>
+                        <p class="login-text">By continuing, you agree to Codecaro <span
+                                style="text-decoration: underline; cursor: pointer;">terms</span> and
+                            acknowledge you've read pur <span
+                                style="text-decoration: underline; cursor: pointer;">privacy
+                                policy</span></p>
+                    </div>
                 </div>
             </div>
         </div>
